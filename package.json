@@ -1,0 +1,33 @@
+{
+    "name": "starter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack-dev-server --open --config _dev.js",
+        "prod": "webpack -p --config  _prod.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv-webpack": "^6.0.0",
+        "html-webpack-plugin": "^5.0.0",
+        "process": "^0.11.10",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "4.0.2",
+        "sass": "^1.32.7",
+        "webpack": "^5.21.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "devDependencies": {
+        "@babel/polyfill": "^7.12.1",
+        "babel-loader": "^8.2.2",
+        "css-loader": "^5.0.2",
+        "mini-css-extract-plugin": "^1.3.6",
+        "sass-loader": "^11.0.1",
+        "webpack-bundle-analyzer": "^4.4.0"
+    }
+}
